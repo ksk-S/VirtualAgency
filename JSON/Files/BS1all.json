@@ -1,0 +1,124 @@
+{
+    "live" :
+    [	
+	{
+   		"filename"	: "D:/Streams/Live/sounds/Multi/live/Audio Track",
+		"is_multi"	: true,
+   		"is_ogg"	: true
+   	},
+	{
+   		"filename"	: "D:/StreamsBS/0briefing/intro4/Audio Track",
+		"is_multi"	: true,
+   		"is_ogg"	: false
+   	},
+
+    ]
+    "files" : 
+    [
+
+		{
+			"video_name"		: "D:/StreamsBS/1right/dome1/video_s.mov",
+			"stream_name"		: "",
+			"start_frame"		: 0,
+			"end_frame"		: 0,	
+			"is_external_audio"	: true,
+			"is_embeded_audio"	: false,
+			"with_audio_time"	: true, 
+			"is_reversed"		: false, 
+			"play_speed"		: 1.0,
+			"stream_audio"		: "D:/StreamsBS/1right/dome1/Audio Track",
+			"audio_latency"		: -0.3, 
+			"is_multi"		: true,
+			"is_ogg" 		: false,
+			"is_image" : false
+		},
+
+		{
+			"video_name"		: "D:/StreamsBS/2theatre/video_s.mov",
+			"stream_name"		: "",
+			"start_frame"		: 0,
+			"end_frame"		: 0,
+			"is_external_audio"	: true,
+			"is_embeded_audio"	: false,
+			"with_audio_time"	: true, 
+			"is_reversed"		: false, 
+			"play_speed"		: 1.0,
+			"stream_audio"		: "D:/StreamsBS/2theatre/Audio Track",
+			"audio_latency"		: 0.0, 
+			"is_multi"		: true,
+			"is_ogg" 		: false,
+			"is_image" : false
+		},
+
+		
+		{
+			"video_name"		: "D:/StreamsBS/3entrance/4/video_s.mov",
+			"stream_name"		: "",
+			"start_frame"		: 0,
+			"end_frame"		: 0,
+			"is_external_audio"	: true,
+			"is_embeded_audio"	: false,
+			"with_audio_time"	: true, 
+			"is_reversed"		: false, 
+			"play_speed"		: 1.0,
+			"stream_audio"		: "D:/StreamsBS/3entrance/4/Audio Track",
+			"audio_latency"		: -0.35 , 
+			"is_multi"		: true,
+			"is_ogg" 		: false,
+			"is_image" : false
+		},
+
+		{
+			"video_name"		: "D:/StreamsBS/4pier/1/video_s.mov",
+			"stream_name"		: "",
+			"start_frame"		: 0,
+			"end_frame"		: 0,
+			"is_external_audio"	: true,
+			"is_embeded_audio"	: false,
+			"with_audio_time"	: true, 
+			"is_reversed"		: false, 
+			"play_speed"		: 1.0,
+			"stream_audio"		: "D:/StreamsBS/4pier/1/Audio Track",
+			"audio_latency"		: -0.2, 
+			"is_multi"		: true,
+			"is_ogg" 		: false,
+			"is_image" : false
+		},
+
+		{
+			"video_name"		: "D:/StreamsBS/5coaster/rollercoster1_s.mov",
+			"stream_name"		: "",
+			"start_frame"		: 0,
+			"end_frame"		: 0,
+			"is_external_audio"	: false,
+			"is_embeded_audio"	: true,
+			"with_audio_time"	: true, 
+			"is_reversed"		: false, 
+			"play_speed"		: 1.0,
+			"stream_audio"		: "D:/StreamsBS/4pier/Audio Track",
+			"audio_latency"		: 0.0, 
+			"is_multi"		: true,
+			"is_ogg" 		: true,
+			"is_image" : false
+		},
+
+		{
+			"video_name"		: "D:/StreamsBS/1right/cb2/video_s.mov",
+			"stream_name"		: "",
+			"start_frame"		: 0,
+			"end_frame"		: 0,
+			"is_external_audio"	: true,
+			"is_embeded_audio"	: false,
+			"with_audio_time"	: true, 
+			"is_reversed"		: false, 
+			"play_speed"		: 1.0,
+			"stream_audio"		: "D:/StreamsBS/0briefing/david1/Audio Track",
+			"audio_latency"		: -0.7, 
+			"is_multi"		: true,
+			"is_ogg" 		: false,
+			"is_image" : false
+		},
+	]
+}
+
+

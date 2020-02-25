@@ -1,0 +1,31 @@
+{
+    "live" :{
+   		"filename"	: "C:/Streams/Live/sounds/Multi/live/Audio Track",
+		"is_multi"	: true,
+   		"is_ogg"	: true
+   	},
+      	
+    "files" : 
+    [
+		
+	 {
+            "video_name": "C:/Streams/DeepDreamNew/Normal.mov",
+            "stream_name": "",
+            "start_frame": 0,
+            "end_frame": 0,
+            "with_audio_time": false,
+            "is_reversed": false,
+	    "is_external_audio" : true,
+	    "is_embeded_audio" : false,
+	    "is_image" : false,
+            "play_speed": 1.0,
+            "stream_audio": "C:/Streams/DeepDreamNew/Sounds/Audio Track",
+            "audio_latency": 0,
+            "is_multi": true,
+            "is_ogg": true
+        },
+
+	]
+}
+
+

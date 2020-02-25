@@ -1,0 +1,2 @@
+#numBlocks:8;numTrials:1;Hand:0;delays:0,500,durations:1800,2000,2200,
+#sessionId, blockId, trialId, ActionType, PerspectiveType, DelayId, MovementType, RandomType, FrameType, targetActionId, durationId, actual_duration, reported_duraton, control, authorship, averageDelay, averageFPS

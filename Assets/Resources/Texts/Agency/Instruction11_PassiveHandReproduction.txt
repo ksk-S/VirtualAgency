@@ -1,0 +1,4 @@
+Passive
+
+In this session, keep your real hand still. The virtual hand will automatically press the button. Please estimate the time interval between the button press and the tone using the numeric keypad.
+

@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="VirtualAgencySR_5.6.Plugins.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SR\Scripts\HeadTrackingRecorder.cs">
+    <Files>
+      <File FileName="Assets\SR\Scripts\HeadTrackingRecorder.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

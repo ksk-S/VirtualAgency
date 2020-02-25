@@ -1,0 +1,3 @@
+During the experiment you will hear one of the three different tones (low, middle and high pitch). After hearing the tone, you will need to produce the correct interval according to the pitch (Low pitch = 1 s, middle pitch = 2 s, and high pitch = 4 s). You will not get any feedback regarding your response in this session.
+ 
+Click to continue

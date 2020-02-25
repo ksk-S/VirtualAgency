@@ -1,0 +1,81 @@
+{
+    "live" :{
+   		"filename"	: "I:/Streams/Live/sounds/Multi/live/Audio Track",
+		"is_multi"	: true,
+   		"is_ogg"	: true
+   	},
+      	
+    "files" : 
+    [
+
+		{
+			"video_name"		: "I:/Stream3/welcome1rightC/welcome1rightC-hap.mov",
+			"stream_name"		: "",
+			"start_frame"		: 15,
+			"end_frame"		: 0,
+			"with_audio_time"	: true, 
+			"is_reversed"		: false, 
+			"play_speed"		: 1.0,
+			"stream_audio"		: "I:/Stream3/welcome1rightC/Audio Track",
+			"audio_latency"		: 0.2, 
+			"is_multi"		: true,
+			"is_ogg" 		: true
+		},
+		{
+			"video_name"		: "I:/Stream3/welcome2B/welcome2B-hap.mov",
+			"stream_name"		: "",
+			"start_frame"		: 30,
+			"end_frame"		: 0,
+			"with_audio_time"	: true, 
+			"is_reversed"		: false, 
+			"play_speed"		: 1.0,
+			"stream_audio"		: "I:/Stream3/welcome2B/Audio Track",
+			"audio_latency"		: 0.12, 
+			"is_multi"		: true,
+			"is_ogg" 		: true
+		},
+		
+		{
+			"video_name"		: "I:/Stream3/welcome3B/welcome3B-hap.mov",
+			"stream_name"		: "",
+			"start_frame"		: 45,
+			"end_frame"		: 0,
+			"with_audio_time"	: true, 
+			"is_reversed"		: false, 
+			"play_speed"		: 1.0,
+			"stream_audio"		: "I:/Stream3/welcome3B/Audio Track",
+			"audio_latency"		: -1.3, 
+			"is_multi"		: true,
+			"is_ogg" 		: true
+		},
+		
+		{
+			"video_name"		: "I:/Stream3/welcome4B/welcome4B-hap.mov",
+			"stream_name"		: "",
+			"start_frame"		: 450,
+			"end_frame"		: 0,
+			"with_audio_time"	: true, 
+			"is_reversed"		: false, 
+			"play_speed"		: 1.0,
+			"stream_audio"		: "I:/Stream3/welcome4B/Audio Track",
+			"audio_latency"		: -1.7, 
+			"is_multi"		: true,
+			"is_ogg" 		: true
+		},
+		{
+			"video_name"		: "I:/Stream3/welcome5rightA/welcome5rightA-hap.mov",
+			"stream_name"		: "",
+			"start_frame"		: 30,
+			"end_frame"		: 0,
+			"with_audio_time"	: true, 
+			"is_reversed"		: false, 
+			"play_speed"		: 1.0,
+			"stream_audio"		: "I:/Stream3/welcome5rightA/Audio Track",
+			"audio_latency"		: 0.12, 
+			"is_multi"		: true,
+			"is_ogg" 		: true
+		},		
+	]
+}
+
+

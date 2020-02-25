@@ -1,0 +1,115 @@
+{
+    "live" :
+	[
+	{
+
+   		"filename"	: "D:\\Box Sync\\Unity5\\Demo\\ParliamentDemo\\streams\\sounds\\Multi\\live\\Audio Track",
+		"is_multi"	: true,
+   		"is_ogg"	: true
+   	},
+	]
+      	
+    "files" : 
+    [
+
+	{
+            "video_name": "D:\\Box Sync\\Unity5\\Demo\\ParliamentDemo\\streams\\library.jpg",
+            "stream_name": "",
+            "start_frame": 0,
+            "end_frame": 0,
+	        "is_external_audio": true,
+	        "is_embeded_audio": false,
+            "with_audio_time": false,
+            "is_reversed": false,
+            "play_speed": 1.0,
+            "stream_audio": "D:\\Streams\\DitchlingBeaconMini\\sounds\\Audio Track",
+            "audio_latency": 0,
+            "is_multi": true,
+            "is_ogg": true,
+	        "is_image" : true
+        },
+    	{
+            "video_name": "D:\\Box Sync\\Unity5\\Demo\\ParliamentDemo\\streams\\downs.jpg",
+            "stream_name": "",
+            "start_frame": 0,
+            "end_frame": 0,
+	    "is_external_audio": true,
+	    "is_embeded_audio": false,
+            "with_audio_time": false,
+            "is_reversed": false,
+            "play_speed": 1.0,
+            "stream_audio": "D:\\Streams\\DitchlingBeaconMini\\sounds\\Audio Track",
+            "audio_latency": 0,
+            "is_multi": true,
+            "is_ogg": true,
+	        "is_image" : true
+        },
+        {
+            "video_name": "D:\\Box Sync\\Unity5\\Demo\\ParliamentDemo\\streams\\market.jpg",
+            "stream_name": "",
+            "start_frame": 0,
+            "end_frame": 0,
+	    "is_external_audio": true,
+	    "is_embeded_audio": false,
+            "with_audio_time": false,
+            "is_reversed": false,
+            "play_speed": 1.0,
+            "stream_audio": "D:\\Streams\\DitchlingBeaconMini\\sounds\\Audio Track",
+            "audio_latency": 0,
+            "is_multi": true,
+            "is_ogg": true,
+	        "is_image" : true
+        },
+        {
+            "video_name": "D:\\Box Sync\\Unity5\\Demo\\ParliamentDemo\\streams\\welcometrust.jpg",
+            "stream_name": "",
+            "start_frame": 0,
+            "end_frame": 0,
+	    "is_external_audio": true,
+	    "is_embeded_audio": false,
+            "with_audio_time": false,
+            "is_reversed": false,
+            "play_speed": 1.0,
+            "stream_audio": "D:\\Box Sync\\Unity5\\Demo\\ParliamentDemo\\streams\\sounds\\Multi\\live\\Audio Track",
+            "audio_latency": 0,
+            "is_multi": true,
+            "is_ogg": true,
+	        "is_image" : true
+        },	
+         {
+            "video_name": "D:\\Box Sync\\Unity5\\Demo\\ParliamentDemo\\streams\\sussex.jpg",
+            "stream_name": "",
+            "start_frame": 0,
+            "end_frame": 0,
+	    "is_external_audio": true,
+	    "is_embeded_audio": false,
+            "with_audio_time": false,
+            "is_reversed": false,
+            "play_speed": 1.0,
+            "stream_audio": "D:\\Streams\\DitchlingBeaconMini\\sounds\\Audio Track",
+            "audio_latency": 0,
+            "is_multi": true,
+            "is_ogg": true,
+	        "is_image" : true
+        },		
+     
+	    {
+            "video_name": "D:/Streams/DeepDreamNew/OpticalFlow.mov",
+            "stream_name": "",
+            "start_frame": 0,
+            "end_frame": 0,
+	    "is_external_audio": true,
+	    "is_embeded_audio": false,
+            "with_audio_time": false,
+            "is_reversed": false,
+            "play_speed": 1.0,
+            "stream_audio": "D:/Streams/DeepDreamNew/sounds/Audio Track",
+            "audio_latency": 0,
+            "is_multi": true,
+            "is_ogg": true,
+	    "is_image" : false
+        },
+]
+}
+
+

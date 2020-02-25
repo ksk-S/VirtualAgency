@@ -1,0 +1,34 @@
+{
+    "live" :
+	[
+	{
+
+   		"filename"	: "I:/Streams/Live/sounds/Multi/live/Audio Track",
+		"is_multi"	: true,
+   		"is_ogg"	: true
+   	},
+	]
+      	
+    "files" : 
+    [
+        {
+            "video_name": "I:/Streams/BrightonDome.jpg",
+            "stream_name": "",
+            "start_frame": 0,
+            "end_frame": 0,
+	    "is_external_audio": true,
+	    "is_embeded_audio": false,
+            "with_audio_time": false,
+            "is_reversed": false,
+            "play_speed": 1.0,
+            "stream_audio": "I:/Streams/Live/sounds/Multi/live/Audio Track",
+            "audio_latency": 0,
+            "is_multi": true,
+            "is_ogg": true,
+	    "is_image" : true
+        },
+
+]
+}
+
+

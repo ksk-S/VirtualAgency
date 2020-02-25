@@ -1,0 +1,9 @@
+﻿Mimic the posture of the target movements as exactly as possible. 
+
+Ensure your palm down and fingers spread at the beginning of trial. Fixate the red cross appearing on or alongside your virtual hand.  Immediately after the red cross is replaced by the red frame, make and keep the target posture until the red frame disappears.
+
+Finally, judge the duration of the red frame.  At the end of each 5 trials, answer to 2 questions: “How much did you feel you control VR hand?” and “How much did you feel as if the VR hand was part of your body?” using 7-point scale from “Strongly disagree” to “Neither” to “Strongly agree.” 
+
+You can take a break between blocks on request.
+
+***Press 'A' button to start***

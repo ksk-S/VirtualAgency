@@ -1,0 +1,5 @@
+﻿- This update brings this asset up to speed with Unity 2017.2+ and Leap Motion Developer Kit 4.0.0 and Core Assets 4.4.0
+- May no longer work with older versions of the above
+- Old MatchRotation script has been renamed to RoomScaleVRAvatar and generally tidied up
+- IKOrionActioner is no longer required for VR mode, but has been preserved for desktop mode, and backwards compatibility with old scenes, and edge cases where individuals may need it
+- Have added a reposition/recenter function on wearing headset

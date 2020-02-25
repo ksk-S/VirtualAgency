@@ -1,0 +1,3 @@
+C:\Unity5\VirtualAgencySR\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\TempUnity\VirtualAgencySR2018\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\TempUnity\VirtualAgencySR2018\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache

@@ -1,0 +1,85 @@
+{
+    "live" :{
+   		"filename"	: "C:/Streams/Live/sounds/Multi/live/Audio Track",
+		"is_multi"	: true,
+   		"is_ogg"	: true
+   	},
+      	
+    "files" : 
+    [
+		{
+			"video_name"		: "C:/Streams/DeepDream/buildings_loop.mov",
+			"stream_name"		: "",
+			"start_frame"		: 0,
+			"end_frame"			: 0,
+			"with_audio_time"	: false, 
+			"is_reversed"		: false, 
+			"play_speed"		: 1.0,
+			"stream_audio"		: "C:/Streams/Live/sounds/Multi/live/Audio Track",
+			"audio_latency"		: 0, 
+			"is_multi"			: true,
+			"is_ogg" 			: true
+		},
+		
+		{
+			"video_name"		: "C:/Streams/DeepDream/dogs_loop.mov",
+			"stream_name"		:  "",
+			"start_frame"		: 0,
+			"end_frame"			: 0,
+			"with_audio_time"	: false, 
+			"is_reversed"		: false, 
+			"play_speed"		: 1.0,
+			"stream_audio"		: "C:/Streams/Live/sounds/Multi/live/Audio Track",
+			"audio_latency"		: 0, 
+			"is_multi"			: true,
+			"is_ogg" 			: true
+		}
+		
+		{
+			"video_name"		: "C:/Streams/DeepDream/dotdogs_loop.mov",
+			"stream_name"		:  "",
+			"start_frame"		: 0,
+			"end_frame"			: 0,
+			"with_audio_time"	: false, 
+			"is_reversed"		: false, 
+			"play_speed"		: 1.0,
+			"stream_audio"		: "C:/Streams/Live/sounds/Multi/live/Audio Track",
+			"audio_latency"		: 0, 
+			"is_multi"			: true,
+			"is_ogg" 			: true
+		}
+		
+		{
+			"video_name"		: "C:/Streams/DeepDream/gusmask_loop.mov",
+			"stream_name"		:  "",
+			"start_frame"		: 0,
+			"end_frame"			: 0,
+			"with_audio_time"	: false, 
+			"is_reversed"		: false, 
+			"play_speed"		: 1.0,
+			"stream_audio"		: "C:/Streams/Live/sounds/Multi/live/Audio Track",
+			"audio_latency"		: 0, 
+			"is_multi"			: true,
+			"is_ogg" 			: true
+		}
+		
+		{
+			"video_name"		: "C:/Streams/DeepDream/animals_loop.mov",
+			"stream_name"		:  "",
+			"start_frame"		: 0,
+			"end_frame"			: 0,
+			"with_audio_time"	: false, 
+			"is_reversed"		: false, 
+			"play_speed"		: 1.0,
+			"stream_audio"		: "C:/Streams/Live/sounds/Multi/live/Audio Track",
+			"audio_latency"		: 0, 
+			"is_multi"			: true,
+			"is_ogg" 			: true
+		}
+		
+		
+		
+	]
+}
+
+

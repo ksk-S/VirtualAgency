@@ -1,0 +1,9 @@
+Mimic a series of target hand movements, which will be demonstrated on a photo, as exactly as possible.  In case you see a large blue 'X' on the demo photo, do NOT move your left hand throughout the trial.
+
+Ensure your palm down and fingers spread at the beginning of trial.  Immediately after a red cross is replaced by a red frame, make the target posture and keep the posture until the red frame disappears.  Or, in the case of the blue X, keep your hand still. 
+
+Finally, judge the duration of the red frame.  At the end of each 5 trials, answer to 2 questions: “How much did you feel you control VR hand?” and “How much did you feel as if the VR hand was part of your body?” using 7-point scale from “Strongly disagree” to “Neither” to “Strongly agree.” 
+
+You can take a break between blocks on request.
+
+***Press 'A' button to start***

@@ -1,0 +1,7 @@
+In this training session you will be familiarized with the task that you will complete in the main experiment.
+
+You will hear one of three different tones: low, middle, and high pitch. After hearing the tone, you will need to produce a temporal interval by pressing and holding the mouse button for that specific duration. If you hear a low tone, produce a 1 s interval, a middle tone 2 s, and a high tone 4 s. Please try not to count during the production of intervals.
+
+After responding, you will be given feedback regarding your produced duration and the target duration. 
+
+Click to continue

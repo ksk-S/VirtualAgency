@@ -1,0 +1,54 @@
+{
+    "live" :{
+   		"filename"	: "C:/Streams/Live/sounds/Multi/live/Audio Track",
+		"is_multi"	: true,
+   		"is_ogg"	: true
+   	},
+      	
+    "files" : 
+    [
+		{
+			"video_name"		: "C:/Streams/TimePerception/magnitude3/normal.mov",
+			"stream_name"		: "",
+			"start_frame"		: 0,
+			"end_frame"			: 0,
+			"with_audio_time"	: false, 
+			"is_reversed"		: false, 
+			"play_speed"		: 1.0,
+			"stream_audio"		: "C:/Streams/Live/sounds/Multi/live/Audio Track",
+			"audio_latency"		: 0, 
+			"is_multi"			: true,
+			"is_ogg" 			: true
+		},
+
+        {
+            "video_name"        : "C:/Streams/TimePerception/magnitude3/fast.mov",
+            "stream_name"       : "",
+            "start_frame"       : 0,
+            "end_frame"         : 0,
+            "with_audio_time"   : false,
+            "is_reversed"       : false,
+            "play_speed"        : 1.0,
+            "stream_audio"      : "C:/Streams/Live/sounds/Multi/live/Audio Track",
+            "audio_latency": 0,
+            "is_multi": true,
+            "is_ogg": true
+        },
+
+        {
+			"video_name"		: "C:/Streams/TimePerception/magnitude3/slow.mov",
+			"stream_name"		:  "",
+			"start_frame"		: 0,
+			"end_frame"			: 0,
+			"with_audio_time"	: false, 
+			"is_reversed"		: false, 
+			"play_speed"		: 1.0,
+			"stream_audio"		: "C:/Streams/Live/sounds/Multi/live/Audio Track",
+			"audio_latency"		: 0, 
+			"is_multi"			: true,
+			"is_ogg" 			: true
+		}
+	]
+}
+
+

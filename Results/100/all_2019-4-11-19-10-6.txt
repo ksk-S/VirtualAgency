@@ -1,0 +1,9 @@
+#numBlocks:8;numTrials:1;Hand:0;delays:0,250,500,durations:1800,2000,2200,
+#sessionId, blockId, trialId, ActionType, PerspectiveType, DelayId, MovementType, targetActionId, durationId, actual_duration, reported_duraton, control, authorship, averageDelay, averageFPS
+2, 1, 0, LIVE, SELF, 0, ACTION, 0, 1, 2011, 1000, 0, 0, 0, 48.22705
+2, 2, 0, REPLAY, SELF, 0, ACTION, 0, 1, 2010, 3000, 0, 0, 0, 67.9221
+2, 3, 0, REPLAY, SELF, 0, ACTION, 0, 0, 1812, 3000, 0, 0, 0, 46.9577
+2, 4, 0, LIVE, SELF, 0, ACTION, 0, 2, 2216, 1000, 0, 0, 0, 45.37433
+2, 5, 0, LIVE, SELF, 0, ACTION, 0, 2, 2224, 3000, 0, 0, 0, 46.27753
+2, 0, 0, REPLAY, SELF, 0, ACTION, 0, 1, 2014, 3000, 0, 0, 0, 45.46653
+2, 6, 0, REPLAY, SELF, 0, ACTION, 0, 2, 2205, 3000, 0, 0, 0, 44.74587

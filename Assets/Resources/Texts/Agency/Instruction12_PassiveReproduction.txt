@@ -1,0 +1,4 @@
+Passive
+
+In this session you will feel a tactile vibration on your finger, followed by a tone.  Please estimate the time interval between the vibration and the tone using the numeric keypad.
+

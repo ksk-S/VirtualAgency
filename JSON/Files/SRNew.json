@@ -1,0 +1,66 @@
+{
+    "live" :
+	[
+        {
+
+            "filename": "D:/Streams/Live/sounds/Multi/live/Audio Track",
+            "is_multi": true,
+            "is_ogg": true
+        },
+	]
+      	
+    "files" : 
+    [
+
+         {
+            "video_name": "D:\\Benjy\\Substitutional_Reality\\deepdream\\finalVideos\\final\\Original.mov",
+            "stream_name": "",
+            "start_frame": 0,
+            "end_frame": 0,
+	        "is_external_audio": true,
+	        "is_embeded_audio": false,
+            "with_audio_time": false,
+            "is_reversed": false,
+            "play_speed": 1.0,
+            "stream_audio": "D:/Streams/Live/sounds/Multi/live/Audio Track",
+            "audio_latency": 0,
+            "is_multi": true,
+            "is_ogg": true,
+	        "is_image" : false
+        },		
+        {
+            "video_name": "D:/Streams/Theta/darker_er_mpeg4.mov",
+            "stream_name": "",
+            "start_frame": 0,
+            "end_frame": 0,
+	        "is_external_audio": true,
+	        "is_embeded_audio": false,
+            "with_audio_time": false,
+            "is_reversed": false,
+            "play_speed": 1.0,
+            "stream_audio": "D:/Streams/Live/sounds/Multi/live/Audio Track",
+            "audio_latency": 0,
+            "is_multi": true,
+            "is_ogg": true,
+	        "is_image" : false
+        },		
+	    {
+            "video_name": "D:/Streams/DeepDreamNew/Normal.mov",
+            "stream_name": "",
+            "start_frame": 0,
+            "end_frame": 0,
+            "is_external_audio": true,
+            "is_embeded_audio": false,
+            "with_audio_time": false,
+            "is_reversed": false,
+            "play_speed": 1.0,
+            "stream_audio": "D:/Streams/DeepDreamNew/sounds/Audio Track",
+            "audio_latency": 0,
+            "is_multi": true,
+            "is_ogg": true,
+	        "is_image" : false
+        },
+]
+}
+
+

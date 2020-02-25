@@ -1,0 +1,19 @@
+{
+    "name": "phi",
+    "age": 26,
+    "bloodType": "O",
+    
+    "file" : {
+    	"hoge": 2,
+    	"fuga": true
+    	},
+    	
+    "files" : 
+    [
+		{ "firstName":"hoge" , "lastName":"1" }, 
+		{ "firstName":"fuga" , "lastName":"3" }, 
+		{ "firstName":"muge" , "lastName":"2" }
+	]
+}
+
+

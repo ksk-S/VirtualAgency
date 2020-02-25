@@ -1,0 +1,1 @@
+The alternative images are formarted as "RAW" in Photoshop or the like, and renamed into bytes

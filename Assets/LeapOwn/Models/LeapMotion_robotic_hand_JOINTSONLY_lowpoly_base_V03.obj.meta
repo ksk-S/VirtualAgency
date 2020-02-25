@@ -1,0 +1,619 @@
+fileFormatVersion: 2
+guid: 5fbcedc679e86b141b8c41e544b46947
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: group10_group7_polySurface230
+    100002: group10_group7_polySurface231
+    100004: group10_group7_pPlane1
+    100006: group10_group7_pPlane2
+    100008: group1_polySurface230
+    100010: group1_polySurface231
+    100012: group1_pPlane1
+    100014: group1_pPlane2
+    100016: group2_polySurface230
+    100018: group2_polySurface231
+    100020: group2_pPlane1
+    100022: group2_pPlane2
+    100024: group3_polySurface230
+    100026: group3_polySurface231
+    100028: group3_pPlane1
+    100030: group3_pPlane2
+    100032: group4_polySurface230
+    100034: group4_polySurface231
+    100036: group4_pPlane1
+    100038: group4_pPlane2
+    100040: group8_group5_polySurface230
+    100042: group8_group5_polySurface231
+    100044: group8_group5_pPlane1
+    100046: group8_group5_pPlane2
+    100048: group9_group6_polySurface230
+    100050: group9_group6_polySurface231
+    100052: group9_group6_pPlane1
+    100054: group9_group6_pPlane2
+    100056: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface18
+    100058: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface30
+    100060: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface32
+    100062: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface44
+    100064: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface51
+    100066: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface54
+    100068: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface65
+    100070: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface67
+    100072: //RootNode
+    100074: polySurface11_LEAPMOTION_LOW_POLY_HAND_v01:polySurface1
+    100076: polySurface227_group1
+    100078: polySurface227_group10_group7
+    100080: polySurface227_group2
+    100082: polySurface227_group3
+    100084: polySurface227_group4
+    100086: polySurface227_group8_group5
+    100088: polySurface227_group9_group6
+    100090: pPipe1
+    100092: pPipe2
+    100094: pPipe3
+    100096: pPipe4
+    100098: pPipe5
+    100100: pPipe6
+    100102: pPipe7
+    100104: pPipe8
+    100106: pPipe9
+    400000: group10_group7_polySurface230
+    400002: group10_group7_polySurface231
+    400004: group10_group7_pPlane1
+    400006: group10_group7_pPlane2
+    400008: group1_polySurface230
+    400010: group1_polySurface231
+    400012: group1_pPlane1
+    400014: group1_pPlane2
+    400016: group2_polySurface230
+    400018: group2_polySurface231
+    400020: group2_pPlane1
+    400022: group2_pPlane2
+    400024: group3_polySurface230
+    400026: group3_polySurface231
+    400028: group3_pPlane1
+    400030: group3_pPlane2
+    400032: group4_polySurface230
+    400034: group4_polySurface231
+    400036: group4_pPlane1
+    400038: group4_pPlane2
+    400040: group8_group5_polySurface230
+    400042: group8_group5_polySurface231
+    400044: group8_group5_pPlane1
+    400046: group8_group5_pPlane2
+    400048: group9_group6_polySurface230
+    400050: group9_group6_polySurface231
+    400052: group9_group6_pPlane1
+    400054: group9_group6_pPlane2
+    400056: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface18
+    400058: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface30
+    400060: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface32
+    400062: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface44
+    400064: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface51
+    400066: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface54
+    400068: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface65
+    400070: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface67
+    400072: //RootNode
+    400074: polySurface11_LEAPMOTION_LOW_POLY_HAND_v01:polySurface1
+    400076: polySurface227_group1
+    400078: polySurface227_group10_group7
+    400080: polySurface227_group2
+    400082: polySurface227_group3
+    400084: polySurface227_group4
+    400086: polySurface227_group8_group5
+    400088: polySurface227_group9_group6
+    400090: pPipe1
+    400092: pPipe2
+    400094: pPipe3
+    400096: pPipe4
+    400098: pPipe5
+    400100: pPipe6
+    400102: pPipe7
+    400104: pPipe8
+    400106: pPipe9
+    2300000: group10_group7_polySurface230
+    2300002: group10_group7_polySurface231
+    2300004: group10_group7_pPlane1
+    2300006: group10_group7_pPlane2
+    2300008: group1_polySurface230
+    2300010: group1_polySurface231
+    2300012: group1_pPlane1
+    2300014: group1_pPlane2
+    2300016: group2_polySurface230
+    2300018: group2_polySurface231
+    2300020: group2_pPlane1
+    2300022: group2_pPlane2
+    2300024: group3_polySurface230
+    2300026: group3_polySurface231
+    2300028: group3_pPlane1
+    2300030: group3_pPlane2
+    2300032: group4_polySurface230
+    2300034: group4_polySurface231
+    2300036: group4_pPlane1
+    2300038: group4_pPlane2
+    2300040: group8_group5_polySurface230
+    2300042: group8_group5_polySurface231
+    2300044: group8_group5_pPlane1
+    2300046: group8_group5_pPlane2
+    2300048: group9_group6_polySurface230
+    2300050: group9_group6_polySurface231
+    2300052: group9_group6_pPlane1
+    2300054: group9_group6_pPlane2
+    2300056: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface18
+    2300058: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface30
+    2300060: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface32
+    2300062: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface44
+    2300064: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface51
+    2300066: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface54
+    2300068: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface65
+    2300070: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface67
+    2300072: polySurface11_LEAPMOTION_LOW_POLY_HAND_v01:polySurface1
+    2300074: polySurface227_group1
+    2300076: polySurface227_group10_group7
+    2300078: polySurface227_group2
+    2300080: polySurface227_group3
+    2300082: polySurface227_group4
+    2300084: polySurface227_group8_group5
+    2300086: polySurface227_group9_group6
+    2300088: pPipe1
+    2300090: pPipe2
+    2300092: pPipe3
+    2300094: pPipe4
+    2300096: pPipe5
+    2300098: pPipe6
+    2300100: pPipe7
+    2300102: pPipe8
+    2300104: pPipe9
+    3300000: group10_group7_polySurface230
+    3300002: group10_group7_polySurface231
+    3300004: group10_group7_pPlane1
+    3300006: group10_group7_pPlane2
+    3300008: group1_polySurface230
+    3300010: group1_polySurface231
+    3300012: group1_pPlane1
+    3300014: group1_pPlane2
+    3300016: group2_polySurface230
+    3300018: group2_polySurface231
+    3300020: group2_pPlane1
+    3300022: group2_pPlane2
+    3300024: group3_polySurface230
+    3300026: group3_polySurface231
+    3300028: group3_pPlane1
+    3300030: group3_pPlane2
+    3300032: group4_polySurface230
+    3300034: group4_polySurface231
+    3300036: group4_pPlane1
+    3300038: group4_pPlane2
+    3300040: group8_group5_polySurface230
+    3300042: group8_group5_polySurface231
+    3300044: group8_group5_pPlane1
+    3300046: group8_group5_pPlane2
+    3300048: group9_group6_polySurface230
+    3300050: group9_group6_polySurface231
+    3300052: group9_group6_pPlane1
+    3300054: group9_group6_pPlane2
+    3300056: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface18
+    3300058: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface30
+    3300060: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface32
+    3300062: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface44
+    3300064: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface51
+    3300066: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface54
+    3300068: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface65
+    3300070: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface67
+    3300072: polySurface11_LEAPMOTION_LOW_POLY_HAND_v01:polySurface1
+    3300074: polySurface227_group1
+    3300076: polySurface227_group10_group7
+    3300078: polySurface227_group2
+    3300080: polySurface227_group3
+    3300082: polySurface227_group4
+    3300084: polySurface227_group8_group5
+    3300086: polySurface227_group9_group6
+    3300088: pPipe1
+    3300090: pPipe2
+    3300092: pPipe3
+    3300094: pPipe4
+    3300096: pPipe5
+    3300098: pPipe6
+    3300100: pPipe7
+    3300102: pPipe8
+    3300104: pPipe9
+    4300000: group10_group7_polySurface230
+    4300002: group10_group7_polySurface231
+    4300004: group10_group7_pPlane1
+    4300006: group10_group7_pPlane2
+    4300008: group1_polySurface230
+    4300010: group1_polySurface231
+    4300012: group1_pPlane1
+    4300014: group1_pPlane2
+    4300016: group2_polySurface230
+    4300018: group2_polySurface231
+    4300020: group2_pPlane1
+    4300022: group2_pPlane2
+    4300024: group3_polySurface230
+    4300026: group3_polySurface231
+    4300028: group3_pPlane1
+    4300030: group3_pPlane2
+    4300032: group4_polySurface230
+    4300034: group4_polySurface231
+    4300036: group4_pPlane1
+    4300038: group4_pPlane2
+    4300040: group8_group5_polySurface230
+    4300042: group8_group5_polySurface231
+    4300044: group8_group5_pPlane1
+    4300046: group8_group5_pPlane2
+    4300048: group9_group6_polySurface230
+    4300050: group9_group6_polySurface231
+    4300052: group9_group6_pPlane1
+    4300054: group9_group6_pPlane2
+    4300056: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface18
+    4300058: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface30
+    4300060: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface32
+    4300062: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface44
+    4300064: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface51
+    4300066: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface54
+    4300068: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface65
+    4300070: LEAPMOTION_LOW_POLY_HAND_v01:polySurface1_polySurface67
+    4300072: polySurface11_LEAPMOTION_LOW_POLY_HAND_v01:polySurface1
+    4300074: polySurface227_group1
+    4300076: polySurface227_group10_group7
+    4300078: polySurface227_group2
+    4300080: polySurface227_group3
+    4300082: polySurface227_group4
+    4300084: polySurface227_group8_group5
+    4300086: polySurface227_group9_group6
+    4300088: pPipe1
+    4300090: pPipe2
+    4300092: pPipe3
+    4300094: pPipe4
+    4300096: pPipe5
+    4300098: pPipe6
+    4300100: pPipe7
+    4300102: pPipe8
+    4300104: pPipe9
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LEAPMOTION_LOW_POLY_HAND_v01_polySurface1_polySurface18Mat
+    second: {fileID: 2100000, guid: 42abca4ae8bcfdc438ae8d0f1ed265b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LEAPMOTION_LOW_POLY_HAND_v01_polySurface1_polySurface30Mat
+    second: {fileID: 2100000, guid: 6400b280f2e072741a7d70ab689d81d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LEAPMOTION_LOW_POLY_HAND_v01_polySurface1_polySurface32Mat
+    second: {fileID: 2100000, guid: faeb82f3853f4e84ba000ce7c0b12bf8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LEAPMOTION_LOW_POLY_HAND_v01_polySurface1_polySurface44Mat
+    second: {fileID: 2100000, guid: 0470c759b7850974da0d7c0c3155c239, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LEAPMOTION_LOW_POLY_HAND_v01_polySurface1_polySurface51Mat
+    second: {fileID: 2100000, guid: 81fe7419b6ff7a642ac9466de88a2ee7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LEAPMOTION_LOW_POLY_HAND_v01_polySurface1_polySurface54Mat
+    second: {fileID: 2100000, guid: 1e2ec9950eb372742b9f1b4253ebb48f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LEAPMOTION_LOW_POLY_HAND_v01_polySurface1_polySurface65Mat
+    second: {fileID: 2100000, guid: c7a1c5f687f7b614fb4707d9f2d137c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LEAPMOTION_LOW_POLY_HAND_v01_polySurface1_polySurface67Mat
+    second: {fileID: 2100000, guid: cc2938c48d9460a409ecc92603efa739, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group10_group7_pPlane1Mat
+    second: {fileID: 2100000, guid: ce073cdc55fed7940ad10c20829830b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group10_group7_pPlane2Mat
+    second: {fileID: 2100000, guid: 93e6fd135727bf84b91b77637a5d6683, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group10_group7_polySurface230Mat
+    second: {fileID: 2100000, guid: df336be3a6beef24f8333ea5203d53d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group10_group7_polySurface231Mat
+    second: {fileID: 2100000, guid: 7e92baa0de219ed4f928c06e0497696c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group1_pPlane1Mat
+    second: {fileID: 2100000, guid: b7835665cfaa7f54bbb1faaa6b84a142, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group1_pPlane2Mat
+    second: {fileID: 2100000, guid: 5a6101d0d1e5ebf4e86b0c0dc883074e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group1_polySurface230Mat
+    second: {fileID: 2100000, guid: fff3a10da83cb7d4b9b1bdbe7199cafb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group1_polySurface231Mat
+    second: {fileID: 2100000, guid: 8939fb396ba9bae4aa72e2d9b218260e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group2_pPlane1Mat
+    second: {fileID: 2100000, guid: fa4c052a157b0e442a8a6db83b8beac7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group2_pPlane2Mat
+    second: {fileID: 2100000, guid: d9cd86691828ad04192a5b12b0af5d3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group2_polySurface230Mat
+    second: {fileID: 2100000, guid: 438938258d1a7bf429324b24b996e559, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group2_polySurface231Mat
+    second: {fileID: 2100000, guid: d47909998b42b354c9d61fa195a34ae3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group3_pPlane1Mat
+    second: {fileID: 2100000, guid: c404a80758806504fbcab9642437e911, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group3_pPlane2Mat
+    second: {fileID: 2100000, guid: f3806967e7c388f459e6d5f4bc3a0165, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group3_polySurface230Mat
+    second: {fileID: 2100000, guid: 5862e4b6fcea864408748b938598d964, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group3_polySurface231Mat
+    second: {fileID: 2100000, guid: 0dec9a21ac7eff949818aab52943b4ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group4_pPlane1Mat
+    second: {fileID: 2100000, guid: 61178135ce727144aa0f4e4fdc4ea061, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group4_pPlane2Mat
+    second: {fileID: 2100000, guid: 66cd75c22e0f3b64485335c17233d92a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group4_polySurface230Mat
+    second: {fileID: 2100000, guid: a8ec636aa757eca45a09d611c47dda36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group4_polySurface231Mat
+    second: {fileID: 2100000, guid: fca02e8113fcfea4880305acfb768e6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group8_group5_pPlane1Mat
+    second: {fileID: 2100000, guid: e1d68d525750d454584df68a9a428862, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group8_group5_pPlane2Mat
+    second: {fileID: 2100000, guid: 2e1e7d6741e26154bb77df9ca4492fec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group8_group5_polySurface230Mat
+    second: {fileID: 2100000, guid: 7149da456ca97d24f908f5517290a659, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group8_group5_polySurface231Mat
+    second: {fileID: 2100000, guid: 52cd9d4ae75eb2143a20de1c7177fdf6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group9_group6_pPlane1Mat
+    second: {fileID: 2100000, guid: 62cfc138ed6aa49468f0abde347e7488, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group9_group6_pPlane2Mat
+    second: {fileID: 2100000, guid: d4f801020e7ffbf438a6a1757d17b414, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group9_group6_polySurface230Mat
+    second: {fileID: 2100000, guid: 4cf4aacd1a8546a459df46960ef10aeb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group9_group6_polySurface231Mat
+    second: {fileID: 2100000, guid: 812b104cc11b85e4dbaab15856618b89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pPipe1Mat
+    second: {fileID: 2100000, guid: 6318867ef98d9b24993a461b553ff94f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pPipe2Mat
+    second: {fileID: 2100000, guid: b9395be2f9f052c4fafd7186d7515399, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pPipe3Mat
+    second: {fileID: 2100000, guid: b4ce723829e80af419081076a7dd947f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pPipe4Mat
+    second: {fileID: 2100000, guid: 1267b047106351c40bdc71b8c8f9d0b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pPipe5Mat
+    second: {fileID: 2100000, guid: 7866d9f9f4221ca4b8e69dc827201714, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pPipe6Mat
+    second: {fileID: 2100000, guid: 19a7c2410d14027498065bb60c987e76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pPipe7Mat
+    second: {fileID: 2100000, guid: 335b8e8265ac4ca478493a69242e64e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pPipe8Mat
+    second: {fileID: 2100000, guid: b393d3643f20e4248aba293351c6876c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pPipe9Mat
+    second: {fileID: 2100000, guid: 458c3cc2bf4542245a31f6e60d4627fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface11_LEAPMOTION_LOW_POLY_HAND_v01_polySurface1Mat
+    second: {fileID: 2100000, guid: f8d14c1a76bee9445beb3369e3aba112, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface227_group10_group7Mat
+    second: {fileID: 2100000, guid: 27e3922f6be15414d888d621aece0c9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface227_group1Mat
+    second: {fileID: 2100000, guid: 4197c288eef9e5a40bb686aafd2792cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface227_group2Mat
+    second: {fileID: 2100000, guid: 965d5ff5ffdfe2845ba87352b2a498d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface227_group3Mat
+    second: {fileID: 2100000, guid: 62057266aeebd724689f0ff370219de5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface227_group4Mat
+    second: {fileID: 2100000, guid: b7fab283e83a0ab4ea9e0e0bdd8f771a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface227_group8_group5Mat
+    second: {fileID: 2100000, guid: cb67b8a6f0c33c1408a7166cdbdd59e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface227_group9_group6Mat
+    second: {fileID: 2100000, guid: d91836a74a5de3b4b93da5cc12d0fa8a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

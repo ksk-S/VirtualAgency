@@ -1,0 +1,5 @@
+<up> longer <up>
+
+Judge shorter or longer
+						
+<down> shorter <down>

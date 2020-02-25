@@ -1,0 +1,5 @@
+Once you have read and accepted the instructions you will be directed to the test environment.
+
+You will be in a busy market with people walking by. The view will move automatically. A mosaic patch will appear in the scene at random intervals. You must click the mouse as soon as you detect the appearance of the patch. 
+
+Click to continue

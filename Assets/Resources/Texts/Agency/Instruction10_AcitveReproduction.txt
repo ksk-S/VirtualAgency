@@ -1,0 +1,4 @@
+Active
+
+Press the red button whenever you feel like it. After each button press you will hear a tone. Please estimate the time interval between the button press and the tone using the numeric keypad.
+

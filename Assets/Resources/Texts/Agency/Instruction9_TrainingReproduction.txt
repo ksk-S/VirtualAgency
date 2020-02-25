@@ -1,0 +1,3 @@
+Training Block
+
+You will hear two tones, one after another. Your task is to guess the time interval between them, in milliseconds. Enter a 3-digit number (001-999ms) using the numeric keypad in front of you. This is the only time when you will be given feedback, so try to amend your estimations accordingly!

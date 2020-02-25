@@ -1,0 +1,5 @@
+Using the joystick and 'A' button, estimate how long you felt a red square was presented (1000-3000 ms) as accurate as possible. After your answer, you will see the feedback. Please accurately estimate the duration as much as possible. 
+
+Trials will be repeated until your accuracy reaches sufficiently high level.
+
+***Press 'A' button to start***

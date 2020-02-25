@@ -1,0 +1,5 @@
+This is the training session.
+
+You will see a red circle presented for a certain duration. When the circle disappears, you will need to estimate that duration using the on-screen slider controlled by the mouse. Try to provide the precise duration in seconds. After responding, you will be given feedback of the actual duration of the presentation. The correct duration will also be indicated on the slidebar by a red circle. 
+
+Click to continue

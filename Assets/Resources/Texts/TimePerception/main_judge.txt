@@ -1,0 +1,4 @@
+After watching the video you are asked to judge the duration of the video either shorter or longer than the initially exposed reference duration.
+Please not count time during watching the video
+
+Press any key to Continue

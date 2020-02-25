@@ -1,0 +1,4 @@
+Passive Block
+
+In this session the button will be automatically pressed without either your hand or the virtual hand moving. You must judge the delay between the button press and the subsequent tone.
+

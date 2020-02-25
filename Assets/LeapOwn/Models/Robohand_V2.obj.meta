@@ -1,0 +1,269 @@
+fileFormatVersion: 2
+guid: d4505cfcf9244154182eb4cc34e0659d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Robhands_Finger00
+    100002: Robhands_Finger01
+    100004: Robhands_Finger02
+    100006: Robhands_Finger10
+    100008: Robhands_Finger11
+    100010: Robhands_Finger12
+    100012: Robhands_Finger20
+    100014: Robhands_Finger21
+    100016: Robhands_Finger22
+    100018: Robhands_Finger30
+    100020: Robhands_Finger31
+    100022: Robhands_Finger32
+    100024: Robhands_Finger40
+    100026: Robhands_Finger41
+    100028: Robhands_Finger42
+    100030: Robhands_Forearm
+    100032: Robhands_Palm
+    100034: Robhands_Palm_Light
+    100036: //RootNode
+    400000: Robhands_Finger00
+    400002: Robhands_Finger01
+    400004: Robhands_Finger02
+    400006: Robhands_Finger10
+    400008: Robhands_Finger11
+    400010: Robhands_Finger12
+    400012: Robhands_Finger20
+    400014: Robhands_Finger21
+    400016: Robhands_Finger22
+    400018: Robhands_Finger30
+    400020: Robhands_Finger31
+    400022: Robhands_Finger32
+    400024: Robhands_Finger40
+    400026: Robhands_Finger41
+    400028: Robhands_Finger42
+    400030: Robhands_Forearm
+    400032: Robhands_Palm
+    400034: Robhands_Palm_Light
+    400036: //RootNode
+    2300000: Robhands_Finger00
+    2300002: Robhands_Finger01
+    2300004: Robhands_Finger02
+    2300006: Robhands_Finger10
+    2300008: Robhands_Finger11
+    2300010: Robhands_Finger12
+    2300012: Robhands_Finger20
+    2300014: Robhands_Finger21
+    2300016: Robhands_Finger22
+    2300018: Robhands_Finger30
+    2300020: Robhands_Finger31
+    2300022: Robhands_Finger32
+    2300024: Robhands_Finger40
+    2300026: Robhands_Finger41
+    2300028: Robhands_Finger42
+    2300030: Robhands_Forearm
+    2300032: Robhands_Palm
+    2300034: Robhands_Palm_Light
+    3300000: Robhands_Finger00
+    3300002: Robhands_Finger01
+    3300004: Robhands_Finger02
+    3300006: Robhands_Finger10
+    3300008: Robhands_Finger11
+    3300010: Robhands_Finger12
+    3300012: Robhands_Finger20
+    3300014: Robhands_Finger21
+    3300016: Robhands_Finger22
+    3300018: Robhands_Finger30
+    3300020: Robhands_Finger31
+    3300022: Robhands_Finger32
+    3300024: Robhands_Finger40
+    3300026: Robhands_Finger41
+    3300028: Robhands_Finger42
+    3300030: Robhands_Forearm
+    3300032: Robhands_Palm
+    3300034: Robhands_Palm_Light
+    4300000: Robhands_Finger00
+    4300002: Robhands_Finger01
+    4300004: Robhands_Finger02
+    4300006: Robhands_Finger10
+    4300008: Robhands_Finger11
+    4300010: Robhands_Finger12
+    4300012: Robhands_Finger20
+    4300014: Robhands_Finger21
+    4300016: Robhands_Finger22
+    4300018: Robhands_Finger30
+    4300020: Robhands_Finger31
+    4300022: Robhands_Finger32
+    4300024: Robhands_Finger40
+    4300026: Robhands_Finger41
+    4300028: Robhands_Finger42
+    4300030: Robhands_Forearm
+    4300032: Robhands_Palm
+    4300034: Robhands_Palm_Light
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Robhands_Finger00Mat
+    second: {fileID: 2100000, guid: 83816257c111b7841afaaa5debf147dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Robhands_Finger01Mat
+    second: {fileID: 2100000, guid: 6be5bd29c00db9d48929876aacb230ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Robhands_Finger02Mat
+    second: {fileID: 2100000, guid: 22e63c59e4922a943ae230dd406c0858, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Robhands_Finger10Mat
+    second: {fileID: 2100000, guid: d184facb16775de428d3764fcd433100, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Robhands_Finger11Mat
+    second: {fileID: 2100000, guid: 0a4068596e42bcb4ca1cdb05613e88e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Robhands_Finger12Mat
+    second: {fileID: 2100000, guid: e73554a1db24dbe4cb7d2c8fed24e37f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Robhands_Finger20Mat
+    second: {fileID: 2100000, guid: d59e072867e224d40b9aeda640fc198b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Robhands_Finger21Mat
+    second: {fileID: 2100000, guid: 0dfe1da4fa226594fae465305743bf40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Robhands_Finger22Mat
+    second: {fileID: 2100000, guid: f3c282a815d5d0f4298c90a4c5bc4a5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Robhands_Finger30Mat
+    second: {fileID: 2100000, guid: 1f6c98b4f7382e54d849ce5b1ae8895a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Robhands_Finger31Mat
+    second: {fileID: 2100000, guid: 1fb072443588ee5488cfb4786896a612, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Robhands_Finger32Mat
+    second: {fileID: 2100000, guid: 0c27af2046d6d5d49903ede5a325a7b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Robhands_Finger40Mat
+    second: {fileID: 2100000, guid: cb5dd3882dd82bf4d9c431c23891af8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Robhands_Finger41Mat
+    second: {fileID: 2100000, guid: 4cbd173f31ec0d3499e7810b2ac02b90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Robhands_Finger42Mat
+    second: {fileID: 2100000, guid: 92870a704fcd71e45926b10600630f44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Robhands_ForearmMat
+    second: {fileID: 2100000, guid: 622b19d19cb67a1459b6e051fce05576, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Robhands_PalmMat
+    second: {fileID: 2100000, guid: 534876d743239884882ef2443ab209f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Robhands_Palm_LightMat
+    second: {fileID: 2100000, guid: 1730480d3e0f13c4f84f98d12b6db170, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,5 @@
+Please ensure that your left arm is in the correct position, with your palm facing down and fingers spread at the beginning of each trial. You will be asked to mimic a series of target hand movements, which will be demonstrated on a photo showing the final posture. Mimic the posture of the target movements as exactly as possible. Fixate the red cross appearing either on your virtual hand or the other’s virtual hand. Immediately after the red cross is replaced by the red frame, please start to make the target posture. After you replicate the hand movement, keep the posture until the red frame disappears.
+
+Then, you will be asked to judge the duration of the red frame. This time you will not receive any feedback. At the end of each 5 trials, you will also be asked to answer to two questions: “How much did you feel you control VR hand?” and “How much did you feel as if the VR hand was part of your body?”. Answer these questions using a 7-point scale ranging from “Strongly disagree” to “Neither” to “Strongly agree.” You can take a break between blocks on request.
+
+Press A button

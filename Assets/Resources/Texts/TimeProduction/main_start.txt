@@ -1,0 +1,3 @@
+Now, you will be in a market where people are walking by. Your task is to search for the presentation of a mosaic patch in the scene. Once you find the patch, you should press ENTER key. When the patch disappears, you should press the key again. Then, you need press the key a third time when you feel that the same interval that had passed between the first and second key presses has passed again. After the three key presses, you will search again for presentation of another patch.
+	
+Press any key to Continue

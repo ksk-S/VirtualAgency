@@ -1,0 +1,11 @@
+visual  - delayed 1    (2)  
+tactile - delayed 2    (1)
+visual  - sync    3    (3)
+tactile - sync    4    (8)
+tactile w/o vr    5    (10)
+
+
+Delay toggle    : y
+visual stimuli  : o
+tactile stimuli : p
+tactile w/o VR  : space 

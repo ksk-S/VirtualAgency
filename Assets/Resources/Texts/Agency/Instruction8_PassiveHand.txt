@@ -1,0 +1,4 @@
+VR Passive Block
+
+In this session the virtual hand will be automatically press a button. You will have to stay your phisical hand still. You must judge the delay between the button press and the subsequent tone.
+

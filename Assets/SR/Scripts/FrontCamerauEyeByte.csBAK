@@ -1,0 +1,434 @@
+using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+using System.Runtime.InteropServices;
+using System.Threading;
+using System.IO;
+using uEye;
+using CommonUtil;
+using RenderingAPI;
+using System;
+
+public class FrontCamerauEye : FrontCameraInterface
+{
+	//uEye
+	uEye.Camera m_Camera = new uEye.Camera();
+	uEye.Defines.Status statusRet;
+
+	
+	// ** could not read from file, only able to load from camera inside with() ** 
+	public string parameter_file = "Assets\\Resources\\uEyeParameter\\uEyeCameraParamBinning.ini";
+		
+	int MemId;
+	int cameraWidth;
+	int cameraHeight;
+	int bpp;
+	int pitch;
+	
+
+	public static int textureWidth = 800;
+	public static int textureHeight = 800;		
+	
+//	int textureWidth = 640;
+//	int textureHeight = 512;
+	
+	public bool is_delayed = false;
+	public int delayed_frame = 10;
+	private Queue<byte[]> delayedImages = new Queue<byte[]>();
+
+    //camera params
+	public double exposure = 14f;
+    public int gain = 0;
+    public int saturation = 120;
+    public int gamma = 112;
+//    public uint temperature = 3280;
+	public uint temperature = 4480;
+
+/*
+  public double exposure = 19f;
+    public int gain = 30;
+    public int saturation = 110;
+    public int gamma = 110;
+    public uint temperature = 3000;
+*/
+
+
+    //max/min
+	const double EXPOSURE_MAX = 72f;
+	const double EXPOSURE_MIN = 0.01f;
+	
+	const int GAIN_MAX = 100;
+	const int GAIN_MIN = 0;
+	
+	const int SATURATION_MAX = 200;
+	const int SATURATION_MIN = 0;
+	
+	const int GAMMA_MAX = 1000;
+	const int GAMMA_MIN = 1;	
+	
+	const uint TEMP_MAX = 10000;
+	const uint TEMP_MIN = 2450;
+	
+	public int width = textureWidth;
+	const int WIDTH_MAX = 1280;
+	const int WIDTH_MIN = 2;
+	
+	public int height = textureHeight;
+	const int HEIGHT_MAX = 1024;
+	const int HEIGHT_MIN = 2;
+
+	
+	//texture
+	public Texture2D texture;
+	byte[] image;
+
+	bool is_updated_image = false;
+
+	//threading
+	public static System.Object sync = new System.Object();
+	Thread thread;
+	
+	bool foreground = false;
+	
+	//alternative images
+	bool is_alternative_image = false;
+	// string binary_image_file = "Images/altImagePNG.bytes";
+
+   // float accumulated_time = 0.0f;
+
+	public override void Start () {	
+		
+		if(InitCamera())
+		{
+			Debug.Log ("uEye camera Ready");
+			InitTexture(); 
+			
+		}else{
+			Debug.Log ("uEye camera not found");
+			is_alternative_image = true;
+
+			renderer.material.mainTexture = Resources.Load<Texture2D>("Images/altImage");
+		}
+		
+		fps_timeUntilNextInterval = fps_updateInterval;
+		
+		//Render.SetTexturePtrFromUnity (texture.GetNativeTexturePtr(), textureWidth, textureHeight);
+		
+		///thread = new Thread(ThreadEyeCamera);
+		//thread.Start();
+		//yield return StartCoroutine("CallPluginAtEndOfFrames");
+	}
+
+	
+	
+	bool InitCamera()
+	{
+		
+		statusRet = m_Camera.Init ();
+		if (statusRet != uEye.Defines.Status.SUCCESS)
+		{
+			Debug.Log("uEye: Camera initializing failed");
+			return false;
+		}
+		
+		statusRet = m_Camera.Parameter.Load();
+		//statusRet = m_Camera.Parameter.Load(parameter_file);
+		if (statusRet != uEye.Defines.Status.SUCCESS)
+		{
+			Debug.Log("uEye: Load parameter failed");
+			return false;
+		}
+		
+		SetInitParameters();
+		
+		m_Camera.Memory.Allocate(out MemId, true);
+		if (statusRet != uEye.Defines.Status.SUCCESS)
+		{
+			Debug.Log("uEye: Allocate Memory failed");
+			return false;
+		}
+		
+		if (statusRet == uEye.Defines.Status.SUCCESS)
+		{
+			m_Camera.Acquisition.Capture(uEye.Defines.DeviceParameter.DontWait);
+			m_Camera.Memory.Inquire (MemId, out cameraWidth, out cameraHeight, out bpp, out pitch);
+			
+			Debug.Log (MemId + " " + cameraWidth + " " + cameraHeight + " " + bpp + " " + pitch);
+			
+			textureWidth = cameraWidth;
+			textureHeight  = cameraHeight;
+		}else{
+			return false;
+			/*
+			m_Camera.Acquisition.Capture(uEye.Defines.DeviceParameter.DontWait);
+			m_Camera.Memory.Inquire (MemId, out cameraWidth, out cameraHeight, out bpp, out pitch);
+		
+			textureWidth = 512;
+			textureHeight  = 512;
+			*/
+		}
+		
+		int posX=0, posY=0, w=0, h=0;
+		m_Camera.Size.AOI.Get(out posX, out posY, out w, out h);
+		Debug.Log ("uEye pos x:" + posX + " y:" + posY + " w:" + w + " h:" + h);
+		//m_Camera.Size.AOI.Set(1024, 768, 128, 152);
+		
+		//event is registered
+		m_Camera.EventFrame += onFrameEvent;
+		
+		return true;
+	}
+	
+	
+	void SetInitParameters()
+	{
+		m_Camera.Timing.Exposure.Set(exposure);
+		
+		m_Camera.Gain.Hardware.Scaled.SetMaster(gain);
+		m_Camera.Saturation.Set(saturation, saturation);
+		m_Camera.Color.Temperature.Set(temperature); 
+		m_Camera.Gamma.Software.Set(gamma);
+		
+	}
+	
+	void InitTexture()
+	{
+		texture = new Texture2D (textureWidth, textureHeight);
+		texture.Apply();
+		renderer.material.mainTexture = texture;
+		
+		//Render.SetTexturePtrFromUnity (texture.GetNativeTexturePtr(), textureWidth, textureHeight, (int)ScreenMode.Live);
+		
+		image = new byte[textureWidth * textureHeight * 4];
+
+
+		TestImage ();
+		texture.LoadImage (image);
+
+
+	}
+
+	unsafe public void TestImage()
+	{
+	
+		fixed (byte* texBufPtr = &image[0]) {
+			byte* imgPtr = texBufPtr;
+		
+			for (int i = 0; i < textureWidth; i++, imgPtr += 4) {
+				for (int j = 0; j < textureHeight; j++) {
+					*imgPtr = 0xFF;
+					*(imgPtr+1) = 0x0;
+					*(imgPtr+2) = 0x0;
+					*(imgPtr+3) = 0x0;
+				}
+			}
+		}
+	}
+			
+	public override void SetForeGround()
+	{
+		//Render.SetLiveRenderStatus (true);
+		foreground = true;
+	}
+
+    public override void SetBackGround()
+	{
+		//.SetLiveRenderStatus (false);
+		foreground = false;
+	}
+	
+
+	
+	private void onFrameEvent(object sender, EventArgs e)
+	{
+		if (foreground)
+		{
+			//uEye.Camera Cam = sender as uEye.Camera;
+			UpdateImage();
+		}
+	}
+	
+	unsafe void UpdateImage()
+	{
+		lock(sync){
+			if(!is_alternative_image)
+			{
+				m_Camera.Memory.GetActive(out MemId);
+				m_Camera.Memory.CopyToArray(MemId, out image);
+				
+				if(is_delayed)
+				{
+					byte[] copyImage = new byte[textureWidth * textureHeight * 4];
+					Buffer.BlockCopy(image, 0, copyImage, 0, textureWidth * textureHeight * 4);
+					delayedImages.Enqueue(copyImage);
+					
+					if(	delayedImages.Count > delayed_frame)
+					{
+						image = delayedImages.Dequeue();
+					}
+				}
+				is_updated_image = true;
+				
+				//Render.UpdateTextureLive ( image );
+			}else{
+				//Render.UpdateTextureLive ( image );
+			}
+		}
+		ShowFPSAlt();
+	}
+
+
+	void Update()
+	{
+		if(is_updated_image){
+			//texture.LoadImage (image);
+		}
+	}
+
+	void OnApplicationQuit()
+	{
+		Debug.Log ("uEye onApplicationQuit");
+		cleanup();
+	}
+
+
+
+	void cleanup()
+	{
+		SetBackGround();
+		if(m_Camera.IsOpened)
+		{
+			m_Camera.Memory.Free(MemId);
+			m_Camera.Acquisition.Stop();
+			m_Camera.Exit();
+		}
+	}
+
+	
+	public override void IncExposure()
+	{
+		m_Camera.Timing.Exposure.Get(out exposure);
+		if(exposure < EXPOSURE_MAX) exposure += 0.1f;
+		m_Camera.Timing.Exposure.Set(exposure); 
+		
+		Debug.Log ("exposure " + exposure);
+	}
+    public override void DecExposure()
+	{
+		m_Camera.Timing.Exposure.Get(out exposure);
+		if(exposure > EXPOSURE_MIN) exposure -= 0.1f;
+		m_Camera.Timing.Exposure.Set(exposure);
+		
+		Debug.Log ("exposure " + exposure);
+	}
+
+    public override void IncGain()
+	{
+		m_Camera.Gain.Hardware.Scaled.GetMaster (out gain);
+		if(gain < GAIN_MAX) gain++;
+		m_Camera.Gain.Hardware.Scaled.SetMaster(gain);
+		Debug.Log("gain " + gain);
+	}
+
+    public override void DecGain()
+	{
+		m_Camera.Gain.Hardware.Scaled.GetMaster (out gain);
+		if(gain > GAIN_MIN) gain--;
+		m_Camera.Gain.Hardware.Scaled.SetMaster(gain);
+		Debug.Log("gain " + gain);
+	}
+
+    public override void IncSaturation()
+	{
+		int u,v;
+		m_Camera.Saturation.Get(out u, out v);
+		saturation = u;
+		if(saturation < SATURATION_MAX) saturation++;
+		m_Camera.Saturation.Set(saturation, saturation);
+		Debug.Log ("saturation " + saturation);
+	}
+    public override void DecSaturation()
+	{
+		int u,v;
+		m_Camera.Saturation.Get(out u, out v);
+		saturation = u;
+		if(saturation > SATURATION_MIN) saturation--;
+		m_Camera.Saturation.Set(saturation, saturation);
+		Debug.Log ("saturation " + saturation);
+	}
+
+    public override void IncGamma()
+	{
+		m_Camera.Gamma.Software.Get(out gamma); 
+		if(gamma < GAMMA_MAX) gamma++;
+		m_Camera.Gamma.Software.Set(gamma); 
+		Debug.Log ("gamma " + gamma);
+	}
+    public override void DecGamma()
+	{
+		m_Camera.Gamma.Software.Get(out gamma); 
+		if(gamma > GAMMA_MIN) gamma--;
+		m_Camera.Gamma.Software.Set(gamma);
+		Debug.Log ("gamma " + gamma);
+	}
+
+    public override void IncTemp()
+	{
+		m_Camera.Color.Temperature.Get(out temperature); 
+		if(temperature < TEMP_MAX) temperature += 20;
+		m_Camera.Color.Temperature.Set(temperature);		
+		Debug.Log ("temperature " + temperature);
+	}
+    public override void DecTemp()
+	{
+		
+		m_Camera.Color.Temperature.Get(out temperature); 
+		if(temperature > TEMP_MIN) temperature -= 20;
+		m_Camera.Color.Temperature.Set(temperature); 
+		Debug.Log ("temperature " + temperature);
+	}
+
+    public override void DecAOI()
+	{
+		return;
+		//it might be dangerous to change the size in real time
+		
+		int posX=0, posY=0;
+		
+		if(height > HEIGHT_MIN) height -= 2;
+		width = (int)((float)height * 1.25f);
+		
+	//	image = new byte[width * height * 4];
+		
+		m_Camera.Size.AOI.Set(posX,  posY, width, height);
+		Debug.Log ("AOI :" + posX + ","+  posY + ","+ width+ ","+ height);
+	}
+    public override void IncAOI()
+	{
+		return;
+		
+		int posX=0, posY=0;
+		if(height < HEIGHT_MAX) height += 2;
+		width = (int)((float)height * 1.25f);
+		
+	//	image = new byte[width * height * 4];
+ 	
+		m_Camera.Size.AOI.Set(posX,  posY, width, height);
+		Debug.Log ("AOI " + posX + ","+  posY + ","+ width+ ","+ height);
+	}
+	
+/*
+uEye.SizeAOI.Set(int s32PosX, int s32PosY, int s32Width, int s32Height)
+	 */
+
+	void ThreadEyeCamera(){
+		Thread.Sleep(0);
+		while(true){
+            UpdateImage();
+			//ShowFPS();
+			
+		}
+	}
+	
+	
+}

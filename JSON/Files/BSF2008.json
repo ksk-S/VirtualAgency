@@ -1,0 +1,123 @@
+{
+    "live" :
+    [	
+	{
+   		"filename"	: "C:/Streams/Live/sounds/Multi/live/Audio Track",
+		"is_multi"	: true,
+   		"is_ogg"	: true
+   	},
+	{
+   		"filename"	: "C:/StreamsBS/0briefing/intro4/Audio Track",
+		"is_multi"	: true,
+   		"is_ogg"	: false
+   	},
+
+    ]
+    "files" : 
+    [
+		{
+            		"video_name"		: "C:/Streams/ChangeBlindness/1.mov",
+           		"stream_name"		: "",
+            		"start_frame"		: 0,
+            		"end_frame"		: 0,
+			"is_external_audio"	: false,
+			"is_embeded_audio"	: false,
+            		"with_audio_time"	: false,
+            		"is_reversed"		: false,
+            		"play_speed"		: 1.0,
+            		"stream_audio"		: "C:/Streams/Live/sounds/Multi/live/Audio Track",
+            		"audio_latency": 0,
+            		"is_multi": true,
+            		"is_ogg": true,
+			"is_image" 		: false
+        },
+	
+		{
+			"video_name"		: "D:/Streams/Downs/Downs.mov",
+			"stream_name"		: "",
+			"start_frame"		: 0,
+			"end_frame"		: 0,
+			"is_external_audio"	: true,
+			"is_embeded_audio"	: false,
+			"with_audio_time"	: false, 
+			"is_reversed"		: false, 
+			"play_speed"		: 1.0,
+			"stream_audio"		: "D:/Streams/Downs/sounds/Audio Track",
+			"audio_latency"		: -1.35, 
+			"is_multi"		: true,
+			"is_ogg" 		: true,
+			"is_image" 		: false
+		},
+
+{
+			"video_name"		: "D:/Streams/welcome2B/welcome2B.mp4.mov",
+			"stream_name"		: "",
+			"start_frame"		: 0,
+			"end_frame"		: 0,
+			"is_external_audio": true,
+			"is_embeded_audio": false,
+			"with_audio_time"	: true, 
+			"is_reversed"		: false, 
+			"play_speed"		: 1,
+			"stream_audio"		: "D:/Streams/welcome2B/Audio Track",
+			"audio_latency"		: 0, 
+			"is_multi"		: true,
+			"is_ogg" 		: true,
+			"is_image" : false
+		},
+
+
+        	{
+			"video_name"		: "D:/Streams/DeepDreamNew/OpticalFlow.mov",
+            		"stream_name"		: "",
+            		"start_frame"		: 0,
+			"end_frame"		: 0,
+			"is_external_audio"	: true,
+			"is_embeded_audio"	: false,
+            		"with_audio_time"	: false,
+            		"is_reversed"		: false,
+            		"play_speed"		: 1.0,
+            		"stream_audio"		: "D:/Streams/DeepDreamNew/Sounds/Audio Track",
+            		"audio_latency"		: 0,
+            		"is_multi"		: true,
+            		"is_ogg"		: true,
+			"is_image" 		: false
+       		 },
+		 {
+			"video_name"		: "D:/StreamsBS/4pier/1/video_s.mov",
+			"stream_name"		: "",
+			"start_frame"		: 0,
+			"end_frame"		: 0,
+			"is_external_audio"	: true,
+			"is_embeded_audio"	: false,
+			"with_audio_time"	: true, 
+			"is_reversed"		: false, 
+			"play_speed"		: 1.0,
+			"stream_audio"		: "D:/StreamsBS/4pier/1/Audio Track",
+			"audio_latency"		: -0.2, 
+			"is_multi"		: true,
+			"is_ogg" 		: false,
+			"is_image" 		: false
+		},
+
+		{
+			"video_name"		: "D:/StreamsBS/5coaster/rollercoster1_s.mov",
+			"stream_name"		: "",
+			"start_frame"		: 0,
+			"end_frame"		: 0,
+			"is_external_audio"	: false,
+			"is_embeded_audio"	: true,
+			"with_audio_time"	: true, 
+			"is_reversed"		: false, 
+			"play_speed"		: 1.0,
+			"stream_audio"		: "",
+			"audio_latency"		: 0.0, 
+			"is_multi"		: true,
+			"is_ogg" 		: true,
+			"is_image" : false
+		},
+
+	]
+}
+
+

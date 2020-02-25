@@ -1,0 +1,38 @@
+{
+    "lives" :
+    [
+		{
+			"audioId"		: 1,
+			"duration"		: 0,
+		},
+    ]
+      	
+    "scenes" : 
+    [
+
+
+		{
+			"videoId"		: 1,
+			"duration"		: 3,
+		},
+		{
+			"videoId"		: 2,
+			"duration"		: 3,
+		},
+		{
+			"videoId"		: 3,
+			"duration"		: 3,
+		},
+		{
+			"videoId"		: 4,
+			"duration"		: 3,
+		},
+		{
+			"videoId"		: 5,
+			"duration"		: 3,
+		},
+		
+	]
+}
+
+

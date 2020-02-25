@@ -1,0 +1,5 @@
+Now, you will see the live camera scene for while.
+Then you are asked to reproduce the duration by holding a key pressed.
+This session will continue until your performance will reach a certain level
+
+Press any key to continue

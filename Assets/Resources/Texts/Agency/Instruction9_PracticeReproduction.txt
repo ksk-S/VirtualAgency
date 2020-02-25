@@ -1,0 +1,3 @@
+Practice Block
+
+Press the red button whenever you feel like it - though please wait at least two seconds between each button press!  After each button press you will hear a tone. Please estimate the time interval between the button press and the tone using the numeric keypad in front of you.

@@ -1,0 +1,31 @@
+{
+    "live" :{
+   		"filename"	: "C:/Streams/Live/sounds/Multi/live/Audio Track",
+		"is_multi"	: true,
+   		"is_ogg"	: true
+   	},
+      	
+    "files" : 
+    [
+
+	{
+            "video_name": "D:/Stream3/welcome1leftA/welcome1leftA.mp4",
+            "stream_name": "D:\\Streams\\20140204\\Ladybug-Stream-000000.pgr",
+            "start_frame": 0,
+            "end_frame": 0,
+	    "is_external_audio": true,
+	    "is_embeded_audio": false,
+            "with_audio_time": false,
+            "is_reversed": false,
+            "play_speed": 1.0,
+            "stream_audio": "D:/Stream3/welcome1leftA/Audio Track",
+            "audio_latency": 0,
+            "is_multi": true,
+            "is_ogg": true,
+	    "is_image" : false
+        },
+        
+]
+}
+
+

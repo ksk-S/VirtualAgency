@@ -1,0 +1,5 @@
+How did you feel during the previous session?
+negative
+positive
+neutral
+

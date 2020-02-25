@@ -1,0 +1,7 @@
+You will be asked to mimic a series of target hand movements, which will be demonstrated on videos presented in a window panel. Your left hand movements will be reproduced in the virtual environment. Please mimic the posture and speed of the target hand movements as exactly as possible. 
+
+Put your left elbow onto the square sponge. An invisible virtual box tells you the proper location where you hand and head should be during the task. The trial begins only when your left hand and head are at the proper location. Keep your left hand with palm facing down and fingers spread at the beginning of each trial.
+
+Please watch a red cross near either your virtual hand or the other’s virtual hand for a while. After the cross disappeared, a red square will be superimposed onto the hand, during which you will perform hand movements to make the memorized posture. A beep tone will remind you when to start moving. Mimic the memorized posture as exactly as possible. You will repeat several practice trials.
+
+Press A button to start

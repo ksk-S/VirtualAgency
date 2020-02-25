@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Experiment/Scenes/DurationJudgement/DurationJudgement3PP_Blocked_SpatialRandom.unity
+  isLoaded: 1
+  isActive: 1

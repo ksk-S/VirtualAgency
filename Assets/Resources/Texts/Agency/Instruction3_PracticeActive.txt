@@ -1,0 +1,3 @@
+2. Practice Session
+
+Press the red button at will. A tone will follow the button press with varying intervals. Please answer if there is a delay between button press and the subsequent tone or not. 

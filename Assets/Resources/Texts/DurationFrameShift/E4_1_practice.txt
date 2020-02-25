@@ -1,0 +1,7 @@
+﻿You will be asked to mimic a series of target hand movements, which will be demonstrated on videos in a window.  Memorize the posture and speed of the target hand movements. 
+
+A virtual box tells you the proper location where your hand and head should be.  Keep your left hand with palm facing down and fingers spread at the beginning of trial.
+
+Watch a red cross on or alongside your virtual hand for a while.  The cross will be replaced by a red square, during which you will perform hand movements to make the memorized posture.  A beep tone will remind you when to start moving.  Mimic the memorized posture as exactly as possible.
+ 
+***Press 'A' button to start***

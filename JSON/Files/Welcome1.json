@@ -1,0 +1,99 @@
+{
+    "live" :{
+   		"filename"	: "D:/Streams/Live/sounds/Multi/live/Audio Track",
+		"is_multi"	: true,
+   		"is_ogg"	: true
+   	},
+      	
+    "files" : 
+    [
+
+		{
+			"video_name"		: "D:/Stream3/welcome1leftA/welcome1leftA.mp4.mov",
+			"stream_name"		: "",
+			"start_frame"		: 0,
+			"end_frame"		: 0,
+			"is_external_audio": true,
+			"is_embeded_audio": false,
+			"with_audio_time"	: true, 
+			"is_reversed"		: false, 
+			"play_speed"		: 1.0,
+			"stream_audio"		: "D:/Stream3/welcome1leftA/Audio Track",
+			"audio_latency"		: 0.0, 
+			"is_multi"		: true,
+			"is_ogg" 		: true,
+			"is_image" : false
+		},
+		
+		{
+			"video_name"		: "D:/Stream3/welcome2B/welcome2B.mp4.mov",
+			"stream_name"		: "",
+			"start_frame"		: 0,
+			"end_frame"		: 0,
+			"is_external_audio": true,
+			"is_embeded_audio": false,
+			"with_audio_time"	: true, 
+			"is_reversed"		: false, 
+			"play_speed"		: 1.0,
+			"stream_audio"		: "D:/Stream3/welcome2B/Audio Track",
+			"audio_latency"		: 0.12, 
+			"is_multi"		: true,
+			"is_ogg" 		: true,
+			"is_image" : false
+		},
+		
+		{
+			"video_name"		: "D:/Stream3/welcome3B/welcome3B.mp4.mov",
+			"stream_name"		: "",
+			"start_frame"		: 0,
+			"end_frame"		: 0,
+			"is_external_audio": true,
+			"is_embeded_audio": false,
+			"with_audio_time"	: true, 
+			"is_reversed"		: false, 
+			"play_speed"		: 1.0,
+			"stream_audio"		: "D:/Stream3/welcome3B/Audio Track",
+			"audio_latency"		: -1.3, 
+			"is_multi"		: true,
+			"is_ogg" 		: true,
+			"is_image" : false
+		},
+		
+		{
+			"video_name"		: "D:/Stream3/welcome4B/welcome4B.mp4.mov",
+			"stream_name"		: "",
+			"start_frame"		: 0,
+			"end_frame"		: 0,
+			"is_external_audio": true,
+			"is_embeded_audio": false,
+			"with_audio_time"	: true, 
+			"is_reversed"		: false, 
+			"play_speed"		: 1.0,
+			"stream_audio"		: "D:/Stream3/welcome4B/Audio Track",
+			"audio_latency"		: -1.7, 
+			"is_multi"		: true,
+			"is_ogg" 		: true,
+			"is_image" : false
+		},
+		
+		{
+			"video_name"		: "D:/Stream3/welcome5leftB/welcome5leftB.mp4.mov",
+			"stream_name"		: "",
+			"start_frame"		: 0,
+			"end_frame"		: 0,
+			"is_external_audio": true,
+			"is_embeded_audio": false,
+			"with_audio_time"	: true, 
+			"is_reversed"		: false, 
+			"play_speed"		: 1.0,
+			"stream_audio"		: "D:/Stream3/welcome5leftB/Audio Track",
+			"audio_latency"		: 0.12, 
+			"is_multi"		: true,
+			"is_ogg" 		: true,
+			"is_image" : false
+		},
+				
+	]
+}
+
+

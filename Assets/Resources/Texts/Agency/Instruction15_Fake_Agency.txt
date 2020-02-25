@@ -1,0 +1,3 @@
+Passive - Agency
+
+Keep your real hand still. The virtual hand will automatically press the button and a tone will follow. Rate your feeling of agency over the tone occurrence on a scale of 1 to 5, 1 being a feeling that your action did not cause the tone to occur and 5 being a feeling that your action definitely caused the tone to occur.

@@ -1,0 +1,3 @@
+Upon clicking, the patch will remain but will change to a reddish colour before disappearing. You are required to estimate the duration of time between the patch changing to red and when the patch disappears. You will do this using a sliding bar that will appear on the screen after each detected patch has disappeared. You then search again for presentation of another patch.
+ 
+Click to continue

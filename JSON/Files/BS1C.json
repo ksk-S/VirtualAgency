@@ -1,0 +1,45 @@
+{
+    "live" :{
+   		"filename"	: "C:/Streams/Live/sounds/Multi/live/Audio Track",
+		"is_multi"	: true,
+   		"is_ogg"	: true
+   	},
+      	
+    "files" : 
+    [
+		{
+			"video_name"		: "C:/StreamBS/4pier/pier1.mov",
+			"stream_name"		: "",
+			"start_frame"		: 0,
+			"end_frame"		: 0,	
+			"is_external_audio"	: true,
+			"is_embeded_audio"	: false,
+			"with_audio_time"	: true, 
+			"is_reversed"		: false, 
+			"play_speed"		: 1.0,
+			"stream_audio"		: "D:/StreamBS/number1/Audio Track",
+			"audio_latency"		: 0.0, 
+			"is_multi"		: true,
+			"is_ogg" 		: false,
+			"is_image" : false
+		},
+		{
+			"video_name"		: "C:/StreamBS/theta/rollercoaster1.MP4",
+			"stream_name"		: "",
+			"start_frame"		: 0,
+			"end_frame"		: 0,
+			"is_external_audio": false,
+			"is_embeded_audio": true,
+			"with_audio_time"	: true, 
+			"is_reversed"		: false, 
+			"play_speed"		: 1.0,
+			"stream_audio"		: "D:/StreamBS/number1/Audio Track",
+			"audio_latency"		: 0.0, 
+			"is_multi"		: true,
+			"is_ogg" 		: true,
+			"is_image" : false
+		},	
+	]
+}
+
+

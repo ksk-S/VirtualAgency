@@ -1,0 +1,1 @@
+Press the red button whenever you feel like it. Sometimes you will notice the virtual hand pressing the button without you moving. After each button press, estimate the time interval between the button press, and the tone, using the numeric keypad. IMPORTANT: Remember to wait for a moment before each attempt!
